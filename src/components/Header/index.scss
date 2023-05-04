@@ -1,0 +1,136 @@
+.site-header {
+  background-color: alpha($color: #ffffff);
+  padding: 20px 0 19.35px 0;
+  &__logo-link {
+    margin-right: 63px;
+  }
+
+  &__list {
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+  }
+  &__link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    &:hover {
+      color: #000000;
+    }
+  }
+  &__dropdown {
+    position: relative;
+    gap: 10px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  &__dropdown:hover > ul {
+    display: flex;
+  }
+  &__dropdown-list {
+    position: absolute;
+    display: none;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 36px 20px 51px;
+    background-color: #f6f7f9;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    top: 120%;
+  }
+  &__dropdown-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__dropdown-radio:checked + label {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #00093c;
+  }
+  &__dropdown-radio{
+    display: none;
+  }
+  &__dropdown-radio:checked + label > span > span{
+    display: inline-block;
+  }
+  &__dropdown-text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    white-space: nowrap;
+  }
+  &__dropdown-radio-uncheck {
+    position: absolute;
+    left: -30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333333;
+    border-radius: 50%;
+    
+  }
+  &__dropdown-radio-check{
+    display: none;
+    width: 10px;
+    height: 10px;
+    background: #00093C;
+    border-radius: 50%;
+  }
+  &__phone-number {
+    margin-right: 40px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #00093c;
+    text-decoration: none;
+    &:hover {
+      color: #00093c;
+    }
+  }
+  &__login {
+    gap: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+}
