@@ -1,0 +1,96 @@
+.kem-section {
+  margin-top: 100px;
+  background-image: url("../../../assets/images/bird-withsentence.png");
+  background-size: 300px 353px;
+  width: 100%;
+  height: 353px;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 476px);
+  &__wrapper {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 300px;
+  }
+  &__start {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    margin-bottom: 20px;
+  }
+  &__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+  }
+  &__item-flex {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  &__item-title {
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  &__item-info {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #4f4f4f;
+  }
+  &__line {
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+  }
+  &__end {
+    row-gap: 19px;
+  }
+  &__btn {
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    box-shadow: -1px -1px 7px 0px #f7941d, 1px 1px 7px 0px #27aae1;
+    padding: 15px 19px 17px 19px;
+    transition: all 0.3s linear;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.3s linear;
+    }
+  }
+}
+
+.kem-section__toggle::before {
+  position: absolute;
+  bottom: -23px;
+  left: -31px;
+  display: block;
+  content: "";
+  width: 150%;
+  height: 5px;
+  background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
+}
