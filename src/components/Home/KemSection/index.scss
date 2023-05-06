@@ -1,11 +1,11 @@
 .kem-section {
-  margin-top: 100px;
-  background-image: url("../../../assets/images/bird-withsentence.png");
-  background-size: 300px 353px;
-  width: 100%;
-  height: 353px;
-  background-repeat: no-repeat;
-  background-position: calc(50% - 476px);
+  position: relative;
+  padding-top: 100px;
+  // background-color: #f3f2f2;
+  &__position-img{
+    position: absolute;
+    left: calc(50% - 642px);
+  }
   &__wrapper {
     display: flex;
     align-items: start;

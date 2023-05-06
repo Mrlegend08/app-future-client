@@ -3,6 +3,7 @@ import "./index.scss";
 import childern from "../../../assets/images/children.png";
 import guys from "../../../assets/images/guys.png";
 import family from "../../../assets/images/family.png";
+import birdSing from "../../../assets/images/bird-withsentence.png";
 const KemSection = () => {
   const [toggle, setToggle] = React.useState(0);
   const elItems = document.querySelectorAll(".kem-section__item");
@@ -19,6 +20,13 @@ const KemSection = () => {
   return (
     <>
       <section className="kem-section">
+        <img
+          className="kem-section__position-img"
+          src={birdSing}
+          alt="Qush"
+          width={300}
+          height={353}
+        />
         <div className="container">
           <div className="kem-section__wrapper">
             <div className="kem-section__start">
@@ -63,7 +71,6 @@ const KemSection = () => {
               <button className="kem-section__btn">Блогинг</button>
               <button className="kem-section__btn">Soft skills</button>
             </div>
-            
           </div>
         </div>
       </section>
