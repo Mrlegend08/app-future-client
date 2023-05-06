@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "./HeroSection";
 import KemSection from "./KemSection";
 import VideoSection from "./videoSection";
+import OtvizSection from "./OtvizSection";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <HeroSection />
         <KemSection />
         <VideoSection />
+        <OtvizSection />
       </main>
     </>
   );
