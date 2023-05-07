@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection";
 import KemSection from "./KemSection";
 import VideoSection from "./videoSection";
 import OtvizSection from "./OtvizSection";
+import DobroSection from "./DobroSection";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <KemSection />
         <VideoSection />
         <OtvizSection />
+        <DobroSection />
       </main>
     </>
   );
