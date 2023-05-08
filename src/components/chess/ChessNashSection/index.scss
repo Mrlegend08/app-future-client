@@ -1,0 +1,42 @@
+.nash-section {
+  width: 100%;
+  height: 600px;
+  background-image: url("../../../assets/images/otviz-bg.png");
+  margin-bottom: 66px;
+  &__flex {
+    gap: 20px;
+  }
+  &__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  &__card-img {
+    margin-bottom: 25px;
+  }
+  &__card-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  &__card-desc {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+}
