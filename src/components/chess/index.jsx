@@ -1,6 +1,7 @@
 import React from "react";
 import ChessHeroSection from "./ChessHeroSection";
 import ChessInfoSection from "./ChessInfoSection";
+import ChessAkademySection from "./ChessAcademySection";
 
 const Chess = () => {
   return (
@@ -8,6 +9,7 @@ const Chess = () => {
       <main className="site-main">
         <ChessHeroSection />
         <ChessInfoSection />
+        <ChessAkademySection/>
       </main>
     </>
   );

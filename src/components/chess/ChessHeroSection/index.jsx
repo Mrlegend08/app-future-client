@@ -26,7 +26,7 @@ const ChessHeroSection = () => {
                 2 раза в неделю по 2 академических часа
               </span>
             </div>
-            <div className="chess-hero-section__info">от 4 350 ₽ в месяц</div>
+            <span className="chess-hero-section__info">от 4 350 ₽ в месяц</span>
             <span className="chess-hero-section__info-contiune">
               1 занятие бесплатное
             </span>

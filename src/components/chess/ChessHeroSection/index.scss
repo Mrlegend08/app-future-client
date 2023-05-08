@@ -61,6 +61,7 @@
     }
   }
   &__info {
+    position: relative;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
@@ -70,12 +71,12 @@
     align-items: center;
     color: #ffffff;
     margin-bottom: 33px;
-    &::after {
+    &::before {
       position: absolute;
       top: -7px;
       content: "";
       display: block;
-      width: 100%;
+      width: 285px;
       height: 2px;
       background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
     }
