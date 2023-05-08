@@ -74,6 +74,8 @@
     box-shadow: -1px -1px 7px 0px #f7941d, 1px 1px 7px 0px #27aae1;
     padding: 15px 19px 17px 19px;
     transition: all 0.3s linear;
+    color: black;
+    text-decoration: none;
     &:not(:last-child) {
       margin-right: 20px;
     }

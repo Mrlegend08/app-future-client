@@ -4,6 +4,8 @@ import childern from "../../../assets/images/children.png";
 import guys from "../../../assets/images/guys.png";
 import family from "../../../assets/images/family.png";
 import birdSing from "../../../assets/images/bird-withsentence.png";
+
+import { NavLink } from "react-router-dom";
 const KemSection = () => {
   const [toggle, setToggle] = React.useState(0);
   const elItems = document.querySelectorAll(".kem-section__item");
@@ -59,17 +61,33 @@ const KemSection = () => {
               <div className="kem-section__line"></div>
             </div>
             <div className="kem-section__end d-flex align-items-center flex-wrap">
-              <button className="kem-section__btn">Робототехника</button>
-              <button className="kem-section__btn">Создание игр</button>
-              <button className="kem-section__btn">Web-разработка</button>
-              <button className="kem-section__btn">Мультимедиа</button>
-              <button className="kem-section__btn">Шахматы</button>
-              <button className="kem-section__btn">
+              <NavLink to={"Робототехника"} className="kem-section__btn">
+                Робототехника
+              </NavLink>
+              <NavLink to={"igr"} className="kem-section__btn">
+                Создание игр
+              </NavLink>
+              <NavLink to={"Web-разработка"} className="kem-section__btn">
+                Web-разработка
+              </NavLink>
+              <NavLink to={"multi"} className="kem-section__btn">
+                Мультимедиа
+              </NavLink>
+              <NavLink to={"chess"} className="kem-section__btn">
+                Шахматы
+              </NavLink>
+              <NavLink to={"3D"} className="kem-section__btn">
                 3D-моделирование и дизайн
-              </button>
-              <button className="kem-section__btn">Английский язык</button>
-              <button className="kem-section__btn">Блогинг</button>
-              <button className="kem-section__btn">Soft skills</button>
+              </NavLink>
+              <NavLink to={"english"} className="kem-section__btn">
+                Английский язык
+              </NavLink>
+              <NavLink to={"bloging"} className="kem-section__btn">
+                Блогинг
+              </NavLink>
+              <NavLink to={"soft"} className="kem-section__btn">
+                Soft skills
+              </NavLink>
             </div>
           </div>
         </div>
