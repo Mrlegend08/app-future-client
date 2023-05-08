@@ -1,0 +1,184 @@
+.info-section {
+  margin-bottom: 84px;
+  background-image: url("../../../assets/images/videoX.png"),
+    url("../../../assets/images/videoBezakOngTepa.png"),
+    url("../../../assets/images/videoBezakChap.png"),
+    url("../../../assets/images/videoUCh.png");
+  background-size: 230px, 350px 350px, 280px 130px, 164px 136px;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 440px) calc(50% - -190px),
+    calc(50% + 485px) calc(50% - 100px), calc(50% - 510px) calc(50% - -140px),
+    calc(50% - 400px) calc(50% - 205px);
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &__wrapper-top {
+    position: relative;
+    padding-left: 400px;
+    margin-bottom: 142px;
+  }
+  &__top-img {
+    position: absolute;
+    left: -40px;
+  }
+  &__top-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 780px;
+    margin: 0;
+    padding: 0;
+  }
+  &__top-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 180px;
+    width: 100%;
+  }
+  &__item-img {
+    margin-bottom: 17px;
+    width: 30px;
+    height: 50px;
+  }
+  &__item-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 14px;
+  }
+  &__item-desc {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0;
+  }
+  &__position-img {
+    margin-left: 210px;
+    margin-bottom: 68px;
+  }
+  &__wrapper-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  &__bottom-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 9px;
+  }
+  &__bottom-description {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    max-width: 979px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 23px;
+  }
+  &__bottom-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  &__bottom-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 180px;
+    width: 100%;
+    gap: 15px;
+  }
+  &__bottom-img {
+    width: 50px;
+    height: 40px;
+  }
+  &__bottom-desc {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  &__bot {
+    width: 100%;
+    height: 310px;
+    background-image: url("../../../assets/images/Subtract.png");
+    background-size: cover;
+    padding-top: 81px;
+    padding-bottom: 50px;
+  }
+  &__bot-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 41px;
+  }
+  &__bot-flex {
+    display: flex;
+    align-items: center;
+    gap: 114px;
+  }
+  &__bot-start {
+    max-width: 486px;
+    width: 100%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  &__bot-end {
+    max-width: 481px;
+    width: 100%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  &__bot-btn {
+    background: #f7941d;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding: 11px 21px 13px 21px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    &:hover {
+      background-color: #ffae4d;
+    }
+  }
+}
