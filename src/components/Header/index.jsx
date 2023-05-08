@@ -5,7 +5,7 @@ import tobottomarrow from "../../assets/icons/tobottomarrow.svg";
 import user from "../../assets/icons/user.svg";
 import miniburger from "../../assets/icons/mini-burger.svg";
 import "./index.scss";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -30,14 +30,14 @@ const Header = () => {
                       to={"vseKurs"}
                       className="site-header__link  d-flex align-items-center"
                     >
-                    <img
-                    width={20}
-                    height={15}
-                    src={miniburger}
-                    alt="Miniburger"
-                    style={{ marginRight: "6px" }}
-                    />
-                    Все курсы
+                      <img
+                        width={20}
+                        height={15}
+                        src={miniburger}
+                        alt="Miniburger"
+                        style={{ marginRight: "6px" }}
+                      />
+                      Все курсы
                     </NavLink>
                   </li>
                   <li className="site-header__item">
@@ -112,7 +112,8 @@ const Header = () => {
                 8 800 950-33-98
               </a>
               <button className="site-header__login d-flex align-items-center">
-                <img src={user} alt="User img" /> Войти
+                <img src={user} alt="User img" />{" "}
+                <Link className="text-decoration-none text-dark" to={"register"}>Войти</Link>
               </button>
             </div>
           </div>
