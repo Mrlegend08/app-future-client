@@ -1,11 +1,12 @@
 import React from "react";
 import logo from "../../assets/icons/logo.svg";
 import location from "../../assets/icons/location.svg";
-import totoparrow from "../../assets/icons/totoparrow.svg";
 import tobottomarrow from "../../assets/icons/tobottomarrow.svg";
 import user from "../../assets/icons/user.svg";
 import miniburger from "../../assets/icons/mini-burger.svg";
 import "./index.scss";
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
   return (
     <>
@@ -24,32 +25,35 @@ const Header = () => {
               </a>
               <nav className="site-header__navbar">
                 <ul className="site-header__list d-flex align-items-center">
-                  <li className="site-header__item d-flex align-items-center">
+                  <li className="site-header__item">
+                    <NavLink
+                      to={"vseKurs"}
+                      className="site-header__link  d-flex align-items-center"
+                    >
                     <img
-                      width={20}
-                      height={15}
-                      src={miniburger}
-                      alt="Miniburger"
-                      style={{ marginRight: "6px" }}
+                    width={20}
+                    height={15}
+                    src={miniburger}
+                    alt="Miniburger"
+                    style={{ marginRight: "6px" }}
                     />
-                    <a href="#link" className="site-header__link">
-                      Все курсы
-                    </a>
+                    Все курсы
+                    </NavLink>
                   </li>
                   <li className="site-header__item">
-                    <a href="#link" className="site-header__link">
+                    <NavLink to={"mepo"} className="site-header__link">
                       Мероприятия
-                    </a>
+                    </NavLink>
                   </li>
                   <li className="site-header__item">
-                    <a href="#link" className="site-header__link">
+                    <NavLink to={"baz"} className="site-header__link">
                       Базы знаний
-                    </a>
+                    </NavLink>
                   </li>
                   <li className="site-header__item">
-                    <a href="#link" className="site-header__link">
+                    <NavLink to={"karera"} className="site-header__link">
                       Карьера
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </nav>
