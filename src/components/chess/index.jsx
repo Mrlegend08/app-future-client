@@ -3,6 +3,7 @@ import ChessHeroSection from "./ChessHeroSection";
 import ChessInfoSection from "./ChessInfoSection";
 import ChessAkademySection from "./ChessAcademySection";
 import ChessNashSection from "./ChessNashSection";
+import ChessOtvetSection from "./ChessOtvetSection";
 
 const Chess = () => {
   return (
@@ -12,6 +13,7 @@ const Chess = () => {
         <ChessInfoSection />
         <ChessAkademySection />
         <ChessNashSection />
+        <ChessOtvetSection />
       </main>
     </>
   );

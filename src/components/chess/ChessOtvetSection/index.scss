@@ -1,0 +1,88 @@
+.otvet-section {
+  padding-bottom: 60px;
+  margin-bottom: 271px;
+  background-image: url("../../../assets/images/videoX.png"),
+    url("../../../assets/images/videoUCh.png"),
+    url("../../../assets/images/yumalo.png");
+  background-size: 180px, 138px 115px, 149px;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 670px) calc(50% + 125px), calc(50% + 660px) calc(50% - 120px),
+    calc(50% - 610px) calc(50% + 20px);
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  &__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  &__details-flex {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__details {
+    position: relative;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: -1px -1px 7px 0px #f7941d, 1px 1px 7px 0px #27aae1;
+    padding: 17px 30px 10px 30px;
+  }
+  &__details[open]::before {
+    position: absolute;
+    top: 12px;
+    right: -12px;
+    bottom: -12px;
+    left: 6px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
+    opacity: 0.8;
+    filter: blur(20px);
+    border-radius: 20px;
+    z-index: -1;
+  }
+  &__summary {
+    position: relative;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    display: block;
+    align-items: center;
+    color: #00093c;
+    width: 1180px;
+    // width: 100% !important;
+  }
+  &__summery-img {
+    position: absolute;
+    right: 0;
+    top: calc(50%);
+    transform: translateY(-50%);
+  }
+  &__desc {
+    max-width: 979px;
+    width: 100%;
+    margin: 0;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+  }
+}

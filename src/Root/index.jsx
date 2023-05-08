@@ -15,7 +15,8 @@ const Root = () => {
         <Route path="vseKurs" element={<VseKursPage />} />
         <Route path="chess" element={<ChessPage />} />
         <Route path="*" element={<h1>404 not Found</h1>} />
-      </Routes>
+        </Routes>
+        <Footer/>
     </>
   );
 };
