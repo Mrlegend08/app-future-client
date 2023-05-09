@@ -14,7 +14,7 @@ const Header = () => {
         <div className="container">
           <div className="site-header__wrapper d-flex align-items-center justify-content-between">
             <div className="site-header__start d-flex align-items-center">
-              <a className="site-header__logo-link" href="#link">
+              <Link to={"/"} className="site-header__logo-link" href="#link">
                 <img
                   className="site-header__logo-img"
                   src={logo}
@@ -22,7 +22,7 @@ const Header = () => {
                   width={"100"}
                   height={"70.65"}
                 />
-              </a>
+              </Link>
               <nav className="site-header__navbar">
                 <ul className="site-header__list d-flex align-items-center">
                   <li className="site-header__item">
