@@ -8,6 +8,7 @@ import ChessPage from "../pages/ChessPage";
 import RegisterPage from "../pages/RegisterPage";
 import MepoPage from "../pages/MepoPage";
 import MepoMorePage from "../pages/MepoMorePage";
+import NovostiPage from "../pages/NovostiPage";
 
 const Root = () => {
   return (
@@ -20,9 +21,9 @@ const Root = () => {
         <Route path="register" element={<RegisterPage />} />
         <Route path="mepo" element={<MepoPage />} />
         <Route path="mepomore" element={<MepoMorePage />} />
+        <Route path="news" element={<NovostiPage />} />
         <Route path="*" element={<h1>404 not Found</h1>} />
       </Routes>
-      <Footer/>
     </>
   );
 };

@@ -1,0 +1,79 @@
+.novosti-section {
+  margin-bottom: 330px;
+  &__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+  }
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 380px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px 0px #f7941d, 1px 1px 7px 0px #27aae1;
+  }
+  &__date {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 21px 0 21px 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  &__item-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 21px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    color: #00093c;
+  }
+  &__item-desc {
+    margin-top: 0;
+    margin-bottom: 2px;
+    height: 90px;
+    width: 320px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 30px;
+    color: #4f4f4f;
+  }
+  &__btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #00093c;
+    margin-left: 30px;
+    margin-bottom: 32px;
+    text-decoration: none;
+    &:hover {
+      color: #00093c;
+    }
+  }
+}
