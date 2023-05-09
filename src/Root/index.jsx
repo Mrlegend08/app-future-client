@@ -22,6 +22,7 @@ const Root = () => {
         <Route path="mepomore" element={<MepoMorePage />} />
         <Route path="*" element={<h1>404 not Found</h1>} />
       </Routes>
+      <Footer/>
     </>
   );
 };

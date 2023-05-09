@@ -5,8 +5,8 @@ import sariqSoch from "../../../assets/images/sariqbolashaxmat.png";
 import iktabola from "../../../assets/images/iktabolashaxmat.png";
 import odamla from "../../../assets/images/odamlarbn.png";
 import bola from "../../../assets/images/bolaoyla.png";
-// Import Swiper styles
-import "swiper/css";
+  // Import Swiper styles
+  import "swiper/css";
 import "./index.scss";
 const ChessAkademySection = () => {
   const imgs = [
@@ -42,15 +42,15 @@ const ChessAkademySection = () => {
             </p>
           </div>
         </div>
-        <Swiper
-          spaceBetween={20}
-          slidesPerView={5}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
-          style={{ marginBottom: "123px" }}
-        >
-          {slideGenerator}
-        </Swiper>
+          <Swiper
+            spaceBetween={20}
+            slidesPerView={5}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
+            style={{ marginBottom: "123px" }}
+          >
+            {slideGenerator}
+          </Swiper>
         <div className="container">
           <div className="academy-section__wrapper-bottom">
             <h2 className="academy-section__title">Содержание курса</h2>
