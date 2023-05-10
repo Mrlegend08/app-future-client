@@ -11,6 +11,7 @@ import MepoMorePage from "../pages/MepoMorePage";
 import NovostiPage from "../pages/NovostiPage";
 import MoreNewsPage from "../pages/MoreNewsPage";
 import AcademyPage from "../pages/AcademyPage";
+import ContactPage from "../pages/ContactPage";
 
 const Root = () => {
   return (
@@ -26,6 +27,7 @@ const Root = () => {
         <Route path="news" element={<NovostiPage />} />
         <Route path="news/morenews" element={<MoreNewsPage />} />
         <Route path="academy" element={<AcademyPage />} />
+        <Route path="contact" element={<ContactPage />} />
         <Route path="*" element={<h1>404 not Found</h1>} />
       </Routes>
     </>

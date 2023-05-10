@@ -1,0 +1,50 @@
+.contact-section {
+  margin-bottom: 330px;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &__flex {
+    display: flex;
+    align-items: flex-end;
+    gap: 100px;
+  }
+  &__flex-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &__flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  &__flex-text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+    &:hover {
+      color: #000000;
+    }
+  }
+  &__flex-desc {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+    &:hover{
+        color: #000000;
+    }
+  }
+
+}
