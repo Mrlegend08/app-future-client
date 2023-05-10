@@ -9,6 +9,7 @@ import RegisterPage from "../pages/RegisterPage";
 import MepoPage from "../pages/MepoPage";
 import MepoMorePage from "../pages/MepoMorePage";
 import NovostiPage from "../pages/NovostiPage";
+import MoreNewsPage from "../pages/MoreNewsPage";
 
 const Root = () => {
   return (
@@ -22,8 +23,10 @@ const Root = () => {
         <Route path="mepo" element={<MepoPage />} />
         <Route path="mepomore" element={<MepoMorePage />} />
         <Route path="news" element={<NovostiPage />} />
+        <Route path="news/morenews" element={<MoreNewsPage />} />
         <Route path="*" element={<h1>404 not Found</h1>} />
       </Routes>
+      <Footer />
     </>
   );
 };
