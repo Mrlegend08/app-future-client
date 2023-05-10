@@ -7,11 +7,10 @@ import komplar from "../../assets/images/komplar.png";
 import koca from "../../assets/images/streetboy.png";
 import office from "../../assets/images/officekomp.png";
 import kameraroom from "../../assets/images/kamera.png";
-import "./index.scss"
+import "./index.scss";
 const MoreNews = () => {
-    
   const imgs = [robot, komp, komplar, koca, office, kameraroom];
-  const number = localStorage.getItem("index")
+  const number = localStorage.getItem("index");
   return (
     <>
       <main className="site-main">

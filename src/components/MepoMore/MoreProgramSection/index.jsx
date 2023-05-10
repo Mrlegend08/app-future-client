@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.scss";
 
-import moreX from "../../../assets/images/mepo-x.png";
 import bird from "../../../assets/images/mepo-bird.png";
+import moreX from "../../../assets/images/mepo-x.png";
 import moreO from "../../../assets/images/mepo-o.png";
 import moreTriangly from "../../../assets/images/mepo-triangly.png";
 import plus from "../../../assets/images/add.png";
@@ -11,7 +11,6 @@ const MoreProgramSection = () => {
       const [open, setOpen] = React.useState(false);
       const [open2, setOpen2] = React.useState(false);
       const [open3, setOpen3] = React.useState(false);
-      const [open4, setOpen4] = React.useState(false);
   return (
     <>
       <section className="more-program-section">
